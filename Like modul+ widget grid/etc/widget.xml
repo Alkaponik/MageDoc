@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<widgets>
+    <magedocklike_likeproduct type="magedoclike/likeproduct">
+        <name>Widget Like Product</name>
+        <description type="desc">Allows to add Products list width count like</description>
+        <parameters>
+            <page_title>
+                <required>1</required>
+                <visible>1</visible>
+                <label>Block title</label>
+                <type>text</type>
+            </page_title>
+            <page_options>
+                <label>Choose Category Options</label>
+                <visible>1</visible>
+                <type>multiselect</type>
+                <can_be_empty>1</can_be_empty>
+                <source_model>magedoclike/options</source_model>
+            </page_options>
+            <page_size>
+                <required>1</required>
+                <visible>1</visible>
+                <value>1</value>
+                <label>Number of Products to display</label>
+                <type>text</type>
+            </page_size>
+            <template translate="label">
+                <label>Template</label>
+                <visible>1</visible>
+                <value>magedoclike/block.phtml</value>
+            </template>
+        </parameters>
+    </magedocklike_likeproduct>
+</widgets>
