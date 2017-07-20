@@ -1,4 +1,5 @@
 <?php
+/*Hi git*/git status
 /* @var $installer Mage_Core_Model_Resource_Setup */
 $installer = $this;
 $tableLike = $installer->getTable('magedoclike/table_like');
